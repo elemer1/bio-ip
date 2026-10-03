@@ -11,7 +11,7 @@ import pandas as pd
 d = pd.read_csv("data/china_outlicensing_2023_2026.csv")
 
 BIG = r"pfizer|merck|msd|astrazeneca|novartis|roche|genentech|gsk|glaxo|sanofi|abbvie|bristol|bms|lilly|novo nordisk|takeda|amgen|gilead|regeneron|boehringer|bayer|biogen|vertex|j&j|johnson|janssen|daiichi|astellas|otsuka|eisai|ipsen|merck kgaa|biontech|ucb|servier|menarini|santen|madrigal|neurocrine|alkermes|travere|jazz|incyte|summit"
-DEAD = r"terminat|returned|discontinu|fail|deprioriti|rights revert|ended"
+DEAD = r"extinguish|futility|terminat|returned|discontinu|fail|deprioriti|rights revert|ended"
 SOLD = r"royalty pharma|sold (?:its|the) royalty|royalty sale|synthetic royalty|monetiz"
 
 
